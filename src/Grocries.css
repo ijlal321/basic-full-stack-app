@@ -1,0 +1,41 @@
+.Grocries{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 1fr 100px 100px; 
+    gap: 10px;
+}
+
+button{
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+ul{
+    display: grid;
+    gap: 10px;
+}
+
+.input-data{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.input-data > button{
+    width: 50px;
+}
+
+input{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px;
+}
